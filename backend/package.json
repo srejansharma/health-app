@@ -1,0 +1,12 @@
+{
+  "name": "health-app",
+  "version": "1.0.0",
+  "description": "This app is used to track user medical history",
+  "license": "ISC",
+  "author": "Srejan Sharma",
+  "type": "commonjs",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
