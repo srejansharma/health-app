@@ -7,10 +7,11 @@
   "type": "commonjs",
   "main": "server.ts",
   "scripts": {
-  "dev": "nodemon src/server.ts",
-  "build": "tsc",
-  "start": "node dist/server.js"
-},
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "migrate": "ts-node src/scripts/migrate.ts"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
